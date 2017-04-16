@@ -22,7 +22,7 @@ class App extends React.Component {
         key={item.id}
         title={item.text}
         image={{ uri: item.uri }}>
-        <Text style={{ marginBottom: 10 }}>
+        <Text style={{ marginBottom: 50 }}>
           I can customize the card further
         </Text>
         <Button
@@ -36,7 +36,7 @@ class App extends React.Component {
   renderNoMoreCards() {
     return (
       <Card title="All Done!">
-        <Text style={{ marginBottom: 10 }}>
+        <Text style={{ marginBottom: 50 }}>
           There is no more content here!
         </Text>
         <Button
