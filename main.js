@@ -26,9 +26,9 @@ class App extends React.Component {
           I can customize the card further
         </Text>
         <Button
-          icon={{ name: 'code' }}
-          backgroundColor="#03A9F4"
-          title="View Now!"
+          icon={{ name: 'face' }}
+          backgroundColor="#25d366"
+          title="Swipe Now"
         />
       </Card>
     );
